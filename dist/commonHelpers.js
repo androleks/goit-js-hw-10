@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-ec808ebb.js";import"./assets/vendor-75c1f44c.js";const o=document.querySelector("button[data-action-start]"),r=document.querySelector("button[data-action-stop]"),i=document.querySelector(".js-clockface");let n,a=new Date("03.04.2024 12:43");function s(){n=setInterval(()=>{const e=Date.now(),t=a-e;l(t),t<1e3&&c()},1e3)}function c(){clearInterval(n)}o.addEventListener("click",()=>{s()});r.addEventListener("click",()=>{c()});function l(e){const t=convertMsToTime(e);i.innerHTML=t}
+//# sourceMappingURL=commonHelpers.js.map
