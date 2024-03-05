@@ -7,6 +7,10 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+import flatpickr from "flatpickr";
+import "flatpickr/dist/flatpickr.min.css";
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
